@@ -1,0 +1,14 @@
+server:
+  port: 8091
+
+spring:
+  jpa.hibernate.ddl-auto: create
+  datasource:
+    nitialize: true
+    url: jdbc:mysql://localhost:3306/pms_hotel
+    username: root
+    password: night000
+
+hibernate:
+  show_sql: show
+

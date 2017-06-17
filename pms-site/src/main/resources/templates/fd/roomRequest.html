@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <title>Spring Framework Guru</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}" rel="stylesheet" media="screen"> </link>
+
+</head>
+<body>
+<form class="form-horizontal" th:action="@{/1/fd/booking}"  method="post" th:object="${command}">
+
+    <h1>Reservation</h1>
+
+    <div class="control-group">
+        <div class="controls">
+            <input type="text" id="reservationId" placeholder="#123456" th:field="*{reservationId}" />
+        </div>
+    </div>
+
+
+    <div class="control-group">
+        <label for="roomType" class="control-label">room type</label>
+        <div class="controls">
+            <input type="text" id="roomType" placeholder="12/31/2017" th:field="*{roomType}" />
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label for="checkin" class="control-label">checkin</label>
+        <div class="controls">
+            <input type="text" id="checkin" placeholder="12/31/2017" th:field="*{checkin}" />
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label for="checkout" class="control-label">checkout</label>
+        <div class="controls">
+            <input type="text" id="checkout" placeholder="12/31/2017" th:field="*{checkout}" />
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label for="adult" class="control-label">adult</label>
+        <div class="controls">
+            <select th:field="*{adult}">
+                <div>
+                    <option th:selected="*{adult==1}">1</option>
+                    <option th:selected="*{adult==2}">2</option>
+                    <option th:selected="*{adult==3}">3</option>
+                    <option th:selected="*{adult==4}">4</option>
+                    <option th:selected="*{adult==5}">5</option>
+                </div>
+            </select>
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label for="checkout" class="control-label">children</label>
+        <div class="controls">
+            <input type="text" id="childern" placeholder="12/31/2017" th:field="*{children}" />
+        </div>
+    </div>
+
+
+
+    <h1>Guest Info</h1>
+
+    <div class="control-group">
+        <label for="checkout" class="control-label">Guest Name</label>
+        <div class="controls">
+            <input type="text" class="form-control" id="guestName" placeholder="HONG gildong" th:field="*{guestName}" />
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label for="checkout" class="control-label">Phone</label>
+        <div class="controls">
+            <input type="text" class="form-control" id="phone" placeholder="+82-10-4717-0000" th:field="*{phone}" />
+        </div>
+    </div>
+
+    <h1>Agency</h1>
+
+    <div class="control-group">
+        <label for="checkout" class="control-label">Agency</label>
+        <div class="controls">
+            <input type="text" class="form-control" id="agency" placeholder="Expedia" th:field="*{agency}" />
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label for="checkout" class="control-label">Registration No.</label>
+        <div class="controls">
+            <input type="text" class="form-control" id="registrationNo" placeholder="#123456" th:field="*{registrationNo}" />
+        </div>
+    </div>
+
+
+    <div class="control-group">
+        <label for="checkout" class="control-label">Memo</label>
+        <div class="controls">
+            <input type="text" class="form-control" id="memo" placeholder="HONG gildong" th:field="*{memo}" />
+        </div>
+    </div>
+
+    <h1>Payment</h1>
+
+    <div class="control-group">
+        <label for="checkout" class="control-label">Discount</label>
+        <div class="controls">
+            <input type="text" class="form-control" id="discount" placeholder="1,000" th:field="*{discount}" />
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label for="checkout" class="control-label">Cash</label>
+        <div class="controls">
+            <input type="text" class="form-control" id="cash" placeholder="1,000" th:field="*{cash}" />
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label for="checkout" class="control-label">Card</label>
+        <div class="controls">
+            <input type="text" class="form-control" id="card" placeholder="1,000" th:field="*{card}" />
+        </div>
+    </div>
+
+
+    <div class="control-group">
+        <label for="checkout" class="control-label">Agency payment</label>
+        <div class="controls">
+            <input type="text" class="form-control" id="agencyPayment" placeholder="1,000" th:field="*{agencyPayment}" />
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label for="checkout" class="control-label">deposit</label>
+        <div class="controls">
+            <input type="text" class="form-control" id="deposit" placeholder="1,000" th:field="*{deposit}" />
+        </div>
+    </div>
+
+
+    <div class="control-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">Booking now!!!!</button>
+        </div>
+    </div>
+</form>
+
+
+<script th:src="@{/webjars/jquery/3.2.0/jquery.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+</body>
+</html>

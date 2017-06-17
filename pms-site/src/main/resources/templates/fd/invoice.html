@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <title>io.idstay</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}" rel="stylesheet" media="screen"> </link>
+</head>
+<body>
+
+<form th:action="@{/1/fd/invoice}"  method="post" th:object="${otaInvoiceCommand}">
+    <div class="form-group">
+        <textarea class="form-control input-sm" rows="20" th:field="*{invoice}" />
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">Parse</button>
+        </div>
+    </div>
+</form>
+<script th:src="@{/webjars/jquery/3.2.0/jquery.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gmailclienet_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gmailclienet_main.iml" group="gmailclienet" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gmailclienet_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gmailclienet_test.iml" group="gmailclienet" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/idstay-master.iml" filepath="$PROJECT_DIR$/.idea/modules/idstay-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pms-booking/pms-booking.iml" filepath="$PROJECT_DIR$/pms-booking/pms-booking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pms-booking_main.iml" filepath="$PROJECT_DIR$/.idea/modules/pms-booking_main.iml" group="pms-booking" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pms-booking_test.iml" filepath="$PROJECT_DIR$/.idea/modules/pms-booking_test.iml" group="pms-booking" />
+      <module fileurl="file://$PROJECT_DIR$/pms-config/pms-config.iml" filepath="$PROJECT_DIR$/pms-config/pms-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pms-config_main.iml" filepath="$PROJECT_DIR$/.idea/modules/pms-config_main.iml" group="pms-config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pms-config_test.iml" filepath="$PROJECT_DIR$/.idea/modules/pms-config_test.iml" group="pms-config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pms-crew_main.iml" filepath="$PROJECT_DIR$/.idea/modules/pms-crew_main.iml" group="pms-crew" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pms-crew_test.iml" filepath="$PROJECT_DIR$/.idea/modules/pms-crew_test.iml" group="pms-crew" />
+      <module fileurl="file://$PROJECT_DIR$/pms-customer/pms-customer.iml" filepath="$PROJECT_DIR$/pms-customer/pms-customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pms-customer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/pms-customer_main.iml" group="pms-customer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pms-customer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/pms-customer_test.iml" group="pms-customer" />
+      <module fileurl="file://$PROJECT_DIR$/pms-hotel/pms-hotel.iml" filepath="$PROJECT_DIR$/pms-hotel/pms-hotel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pms-hotel_main.iml" filepath="$PROJECT_DIR$/.idea/modules/pms-hotel_main.iml" group="pms-hotel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pms-hotel_test.iml" filepath="$PROJECT_DIR$/.idea/modules/pms-hotel_test.iml" group="pms-hotel" />
+      <module fileurl="file://$PROJECT_DIR$/pms-housekeeping/pms-housekeeping.iml" filepath="$PROJECT_DIR$/pms-housekeeping/pms-housekeeping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pms-housekeeping_main.iml" filepath="$PROJECT_DIR$/.idea/modules/pms-housekeeping_main.iml" group="pms-housekeeping" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pms-housekeeping_test.iml" filepath="$PROJECT_DIR$/.idea/modules/pms-housekeeping_test.iml" group="pms-housekeeping" />
+      <module fileurl="file://$PROJECT_DIR$/pms-site/pms-site.iml" filepath="$PROJECT_DIR$/pms-site/pms-site.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pms-site_main.iml" filepath="$PROJECT_DIR$/.idea/modules/pms-site_main.iml" group="pms-site" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pms-site_test.iml" filepath="$PROJECT_DIR$/.idea/modules/pms-site_test.iml" group="pms-site" />
+    </modules>
+  </component>
+</project>

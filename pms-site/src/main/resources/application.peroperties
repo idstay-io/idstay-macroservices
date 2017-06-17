@@ -1,0 +1,4 @@
+project.base-dir=file:/Users/min//Idstay-microservices/idstay-master/pms-site
+
+# Templates reloading during development
+spring.thymeleaf.prefix=${project.base-dir}/src/main/resources/templates/
